@@ -19,7 +19,7 @@ public class Prueba01Mod
 {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "prueba01";
-    // Directly reference a slf4j logger
+
     private static final Logger LOGGER = LogUtils.getLogger();
     public Prueba01Mod()
     {
