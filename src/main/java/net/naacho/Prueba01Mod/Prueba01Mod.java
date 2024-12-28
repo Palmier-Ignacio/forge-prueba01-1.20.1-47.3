@@ -12,6 +12,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.naacho.Prueba01Mod.block.ModBlocks;
 import net.naacho.Prueba01Mod.item.ModCreativeModTabs;
 import net.naacho.Prueba01Mod.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class Prueba01Mod
         //usamos el register para agregar el modEventBus
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
