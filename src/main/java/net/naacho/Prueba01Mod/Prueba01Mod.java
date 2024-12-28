@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 @Mod(Prueba01Mod.MOD_ID)
 public class Prueba01Mod
 {
-    // Define mod id in a common place for everything to reference
+
     public static final String MOD_ID = "prueba01";
 
     private static final Logger LOGGER = LogUtils.getLogger();
