@@ -1,5 +1,6 @@
 {
   "item.prueba01.ruby" : "Ruby",
   "item.prueba01.raw_ruby" : "Raw Ruby",
-  "creatibetab.prueba_tab": "Ruby prueba01 tab"
+  "creatibetab.prueba_tab": "Ruby prueba01 tab",
+  "block.prueba01.ruby_block": "Block of Ruby"
 }
