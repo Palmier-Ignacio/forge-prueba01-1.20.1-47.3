@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "prueba01:item/texture_ruby_shovel",
+    "particle": "prueba01:item/texture_ruby_shovel"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "prueba01:item/texture_hamb",
+    "particle": "prueba01:item/texture_hamb"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "prueba01:raw_ruby"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "prueba01:blocks/ruby_ore_block"
+}

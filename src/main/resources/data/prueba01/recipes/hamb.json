@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "CTL",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "C": {
+      "item": "minecraft:steack"
+    },
+    "T": {
+      "item": "prueba01:tomato"
+    },
+    "L": {
+      "item": "prueba01:lettuce"
+    }
+  },
+  "result": {
+    "item": "prueba01:hamburguer"
+  }
+}
