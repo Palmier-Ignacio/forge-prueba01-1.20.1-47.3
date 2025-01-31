@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#minecraft:needs_diamond_tool",
+    "#minecraft:needs_netherite_tool",
     "prueba01:ruby_ore",
     "prueba01:ruby_block",
     "prueba01:storm_block"

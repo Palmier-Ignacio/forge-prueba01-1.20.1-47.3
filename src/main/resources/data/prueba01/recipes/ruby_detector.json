@@ -1,17 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "RDR",
+    " P ",
+    " P "
   ],
   "key": {
-    "#": {
+    "P": {
+      "item": "minecraft:stick"
+    },
+    "R": {
       "item": "prueba01:ruby"
+    },
+    "D": {
+      "item": "minecraft:diamond"
     }
   },
   "result": {
-    "item": "prueba01:ruby_block"
+    "item": "prueba01:ruby_detector"
   }
 }

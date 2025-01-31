@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "prueba01:raw_ruby"
+          "name": "prueba01:storm_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "prueba01:blocks/ruby_ore_block"
+  "random_sequence": "prueba01:blocks/storm_block"
 }

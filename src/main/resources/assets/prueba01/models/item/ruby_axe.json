@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "prueba01:item/texture_ruby_pickaxe",
-    "particle": "prueba01:item/texture_ruby_pickaxe"
+    "layer0": "prueba01:item/texture_ruby_axe",
+    "particle": "prueba01:item/texture_ruby_axe"
   }
 }

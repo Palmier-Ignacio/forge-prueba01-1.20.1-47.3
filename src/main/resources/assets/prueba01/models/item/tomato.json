@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "prueba01:item/texture_lettuce",
-    "particle": "texture_lettuce"
+    "layer0": "prueba01:item/texture_tomato",
+    "particle": "prueba01:item/texture_tomato"
   }
 }

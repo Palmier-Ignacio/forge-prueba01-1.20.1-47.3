@@ -29,7 +29,7 @@ public class Prueba01Mod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //usamos el register para agregar el modEventBus
+        //usamos el register para agregar el modEventBusa
         ModItems.register(modEventBus);
         ModCreativeModTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -48,6 +48,7 @@ public class Prueba01Mod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RUBY);
             event.accept(ModItems.RAW_RUBY);
+            event.accept(ModItems.RUBY_DETECTOR);
         }
     }
 

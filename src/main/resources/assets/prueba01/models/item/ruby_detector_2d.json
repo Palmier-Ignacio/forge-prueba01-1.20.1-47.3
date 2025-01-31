@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "prueba01:item/texture_ruby_detector",
+    "particle": "prueba01:item/texture_ruby_detector"
+  }
+}

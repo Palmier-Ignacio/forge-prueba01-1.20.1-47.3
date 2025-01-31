@@ -12,6 +12,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.naacho.Prueba01Mod.Prueba01Mod;
 import net.naacho.Prueba01Mod.item.ModItems;
+import net.naacho.Prueba01Mod.item.custom.StormBlock;
 
 import java.util.function.Supplier;
 
@@ -22,6 +23,16 @@ public class ModBlocks {
     //aca creamos los bloques
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.AMETHYST_CLUSTER)));
+
+    public static final RegistryObject<Block> STORM_BLOCK = registerBlock("storm_block",
+            () -> new StormBlock(
+                    BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS) // Usa .of(Material) para crear una instancia.// Establece la dureza y resistencia.
+                            .requiresCorrectToolForDrops() // Requiere la herramienta adecuada para romperlo
+            )
+    );
 
     // 2 metodos para crear bloques
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

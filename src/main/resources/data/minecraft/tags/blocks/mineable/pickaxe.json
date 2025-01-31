@@ -1,5 +1,7 @@
 {
   "values": [
-    "prueba01:ruby_block"
+    "prueba01:ruby_block",
+    "prueba01:ruby_ore_block",
+    "prueba01:storm_block"
   ]
 }

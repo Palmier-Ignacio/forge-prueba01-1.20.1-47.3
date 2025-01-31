@@ -2,17 +2,17 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "base": {
-    "parent": "prueba01:item/ruby_detector_3d"
+    "parent": "prueba01:item/ruby_sword_3d"
   },
   "perspectives": {
     "gui": {
-      "parent": "prueba01:item/ruby_detector_2d"
+      "parent": "prueba01:item/ruby_sword_3d"
     },
     "ground": {
-      "parent": "prueba01:item/ruby_detector_2d"
+      "parent": "prueba01:item/ruby_sword_3d"
     },
     "fixed": {
-      "parent": "prueba01:item/ruby_detector_2d"
+      "parent": "prueba01:item/ruby_sword_3d"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "prueba01:block/ruby_block"
+      "model": "prueba01:block/storm_block"
     }
   }
 }

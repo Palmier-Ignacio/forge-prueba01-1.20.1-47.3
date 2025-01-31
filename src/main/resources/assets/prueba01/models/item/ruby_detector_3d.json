@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "ruby_detector_3d",
 	"textures": {
-		"1": "texture_ruby_detector_3d"
+		"1": "prueba01:item/texture_ruby_detector_3d"
 	},
 	"elements": [
 		{
